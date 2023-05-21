@@ -1,0 +1,9 @@
+.statisticsList {
+    font-size: 18px;
+    width: 120px;
+}
+.statisticsItem {
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: space-between
+}
