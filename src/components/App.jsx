@@ -32,7 +32,7 @@ export const App= ()=> {
       
     <Section title = "Please, leave your feedback">
       <FeedbackOptions
-      options= {['good', 'bad', 'neutral']}
+      options={Object.keys({ good, neutral, bad })}
       onLeaveFeedback={handleIncrement}/>
     </Section>
       
